@@ -1,59 +1,64 @@
-body{
-    margin:0;
-    min-height:100vh;
-}
-nav{
-    background-color:rgba(214, 70, 123, 0.6);
+body {
+    padding: 30px;
+    margin: 0;
+    background:turquoise;
+    background: -webkit-linear-gradient(turquoise, purple);
+    height:100vh;
     
-}
-ul{
-    margin:0;
-    padding:15px;
-    text-align:center;
-}
 
-li{
-    padding:15px;
-    display:inline-block;
-    
-}
-/*Sudi code*/
-li:hover{
-    background:rgba(69, 252, 237, 0.57);
-}
-span{
-    color:pink;
 
 }
-main{
-    display:inline-block;
-    margin:50px auto;
+
+ol {
+    margin:0;
+
 }
- 
-img, iframe {
-     border:40px solid transparent;
-    -moz-border-image: url("https://www.wired.de/sites/default/files/inline-images/2015-07/8bit7.gif") 30 round;
-    display:block;
-    margin:20px auto;
-    width:30vh;
-    height:30vh;
+
+#chicken {
+    background:rgba(204, 61, 255, 0.8);
+    width: 30vw;
+    height:60vh;
+    margin: 20px;
+    border-radius:20px;
+    display:inline-block;
+    margin-left:400px;
+    padding:50px;
+    box-shadow: 0px 0px 50px rgba(255, 42, 235, 0.7);
+
    
 }
 
-#left{
-    margin:0;
-}
+p{
+    display:inline-block;
+    border-radius:10px;
+    border: 2px solid purple;
+    margin:15px;
+    margin-bottom:1.5px;
+    height:1em;
+    width:1em;
+   /* margin:auto;*/
 
-h2{
-    margin:0;
-    text-align:center;
 }
-h1{
-    text-align:center;
-}
- /*footer{
-     position:absolute;
-     bottom:0;
-     width:100vw;
+ button{
+     background:white;
+     margin:10px;
+     border-radius:60px;
+     margin-left:150px;
+     border:none;
+     height:50px;
+     width:130px;
+
  }
+
+ .spot{
+     background:rgba(0, 0, 0, 0.4);
+     width:300px;
+     height:35px;
+     margin:10px;
+     border-radius:4px;
+ }
+
+p.sam{
+border: 2px blue  solid ;
+}
 
